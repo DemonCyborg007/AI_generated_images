@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: rgb(0,36,26);
+background: linear-gradient(38deg, rgba(0,36,26,1) 0%, rgba(9,13,121,0.9556197478991597) 33%, rgba(255,46,0,1) 100%);
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.row:hover img{
+    filter: grayscale(1);
+}
+
+.image:hover img{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.image img{
+    border-radius: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>AI Generated Images</h1>
+  <p>These are state of the art images generated with the help of stable diffusion.All the images are of my family members.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <div class="image"><img src="ai generated pics of MR/MR (17).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (1).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of NR/NR (1).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (30).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (18).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (17).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (58).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (42).png"   style="width:100%"></div>
+  </div>
+  <div class="column">
+    <div class="image"><img src="ai generated pics of NR/NR (28).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (36).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (16).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (56).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (15).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of NR/NR (27).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (14).png"   style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (15).png"   style="width:100%"></div>
+  </div>  
+  <div class="column">
+    <div class="image"><img src="ai generated pics of MR/MR (11).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (14).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (13).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (9).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (12).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (54).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (11).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (16).png"   style="width:100%"></div>
+  </div>
+  <div class="column">
+    <div class="image"><img src="ai generated pics of monkai/Monkai (10).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of NR/NR (25).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of MR/MR (50).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (9).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (8).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (7).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (6).png" style="width:100%"></div>
+    <div class="image"><img src="ai generated pics of monkai/Monkai (5).png" style="width:100%"></div>
+  </div>
+</div>
+
+</body>
+</html>
